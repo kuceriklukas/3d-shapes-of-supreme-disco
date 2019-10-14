@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="cube-style.css" />
+    <title>Cube!</title>
+</head>
+<body>
+    <br />
+    <br />
+    <br />
+    <br />
+    <div class="scene">
+        <div id="cube">
+            <div class="cube--face front">Front</div>
+            <div class="cube--face back">Back</div>
+            <div class="cube--face top">Top</div>
+            <div class="cube--face bottom">Bottom</div>
+            <div class="cube--face left">Left</div>
+            <div class="cube--face right">Right</div>
+        </div>
+    </div>
+    <br />
+    <br />
+    <div class="btn-column">
+        <div class="btn-row">
+            <button class="top" onclick="rotateTop()">Top</button>
+        </div>
+        <div class="btn-row">
+            <button class="left" onclick="rotateLeft()">Left</button>
+            <button class="front" onclick="rotateFront()">Front</button>
+            <button class="right" onclick="rotateRight()">Right</button>
+        </div>
+        <div class="btn-row">
+            <button class="bottom" onclick="rotateBottom()">Bottom</button>
+        </div>
+    </div>
+
+    <script type="text/javascript" src="script.js"></script>
+</body>
+</html>
